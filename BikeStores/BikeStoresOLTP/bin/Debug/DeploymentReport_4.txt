@@ -1,0 +1,51 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [production].[products]
+       [production].[stocks]
+       [sales].[customers]
+       [sales].[order_items]
+       [sales].[staffs]
+       [sales].[stores]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [sales].[order_items] (Default Constraint)
+       unnamed constraint on [production].[stocks] (Foreign Key)
+       unnamed constraint on [sales].[order_items] (Foreign Key)
+       unnamed constraint on [production].[products] (Foreign Key)
+       unnamed constraint on [production].[products] (Foreign Key)
+       unnamed constraint on [production].[stocks] (Foreign Key)
+       unnamed constraint on [sales].[orders] (Foreign Key)
+       unnamed constraint on [sales].[order_items] (Foreign Key)
+       unnamed constraint on [sales].[orders] (Foreign Key)
+       unnamed constraint on [sales].[staffs] (Foreign Key)
+       unnamed constraint on [sales].[staffs] (Foreign Key)
+       unnamed constraint on [sales].[orders] (Foreign Key)
+     Recreate table
+       [production].[products] (Table)
+       [production].[stocks] (Table)
+       [sales].[customers] (Table)
+       [sales].[order_items] (Table)
+       [sales].[staffs] (Table)
+       [sales].[stores] (Table)
+     Create
+       [production].[FK_stock_stores] (Foreign Key)
+       [production].[FKJ_stock_products] (Foreign Key)
+       [sales].[FK_orders_order_item] (Foreign Key)
+       [sales].[FK_product_order_item] (Foreign Key)
+       [sales].[FK_orders_customers] (Foreign Key)
+       [sales].[FK_orders_staff] (Foreign Key)
+       [sales].[FK_orders_stores] (Foreign Key)
+
+** Supporting actions
+     Create
+       Foreign Key: unnamed constraint on [production].[products] (Foreign Key)
+       Foreign Key: unnamed constraint on [production].[products] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[staffs] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[staffs] (Foreign Key)

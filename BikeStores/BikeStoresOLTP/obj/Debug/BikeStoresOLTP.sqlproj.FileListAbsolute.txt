@@ -4,3 +4,13 @@ C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\Bi
 C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.sqlproj.AssemblyReference.cache
 C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.dll
 C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.pdb
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.dacpac
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.dll
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.pdb
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.sqlproj.AssemblyReference.cache
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.dll
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.pdb
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\Model.xml
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\refactor.xml
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\postdeploy.sql
+C:\Demo\BikeStores2025\BikeStores\BikeStoresOLTP\obj\Debug\predeploy.sql

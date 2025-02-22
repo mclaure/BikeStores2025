@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [sales].[staffs] (Foreign Key)
+       unnamed constraint on [sales].[staffs] (Foreign Key)
+     Create
+       [sales].[FK_staff_staff] (Foreign Key)
+       [sales].[FK_staff_stores] (Foreign Key)
+
+** Supporting actions

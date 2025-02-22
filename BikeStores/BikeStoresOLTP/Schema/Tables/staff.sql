@@ -1,5 +1,5 @@
 ﻿CREATE TABLE sales.staffs (
-	staff_id INT IDENTITY (1, 1) PRIMARY KEY,
+	staff_id INT IDENTITY (1, 1) CONSTRAINT PK_staff PRIMARY KEY,
 	first_name VARCHAR (50) NOT NULL,
 	last_name VARCHAR (50) NOT NULL,
 	email VARCHAR (255) NOT NULL UNIQUE,
@@ -7,6 +7,6 @@
 	active tinyint NOT NULL,
 	store_id INT NOT NULL,
 	manager_id INT,
-	FOREIGN KEY (store_id) REFERENCES sales.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
-	FOREIGN KEY (manager_id) REFERENCES sales.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
+	CONSTRAINT FK_staff_stores FOREIGN KEY (store_id) REFERENCES sales.stores (store_id) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT FK_staff_staff FOREIGN KEY (manager_id) REFERENCES sales.staffs (staff_id) ON DELETE NO ACTION ON UPDATE NO ACTION
 );

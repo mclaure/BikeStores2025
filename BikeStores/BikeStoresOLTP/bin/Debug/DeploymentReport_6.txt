@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       [sales].[orders]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [production].[products] (Foreign Key)
+       unnamed constraint on [production].[products] (Foreign Key)
+     Recreate table
+       [sales].[orders] (Table)
+     Create
+       [production].[FK_products_brands] (Foreign Key)
+       [production].[FK_products_categories] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [sales].[FK_orders_order_item] (Foreign Key)
+       [sales].[FK_orders_customers] (Foreign Key)
+       [sales].[FK_orders_staff] (Foreign Key)
+       [sales].[FK_orders_stores] (Foreign Key)
+     Create
+       [sales].[FK_orders_order_item] (Foreign Key)
+       [sales].[FK_orders_customers] (Foreign Key)
+       [sales].[FK_orders_staff] (Foreign Key)
+       [sales].[FK_orders_stores] (Foreign Key)
