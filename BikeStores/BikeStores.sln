@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BikeStoresOLTP", "BikeStoresOLTP\BikeStoresOLTP.sqlproj", "{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE5BC49-FD23-4E97-A6FE-A7BE38ACAE83}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

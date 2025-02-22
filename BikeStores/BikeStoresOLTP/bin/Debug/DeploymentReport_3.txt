@@ -1,0 +1,33 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [production].[products] (Table)
+       [production].[stocks] (Table)
+       [sales].[customers] (Table)
+       [sales].[order_items] (Table)
+       [sales].[orders] (Table)
+       [sales].[staffs] (Table)
+       [sales].[stores] (Table)
+       Default Constraint: unnamed constraint on [sales].[order_items] (Default Constraint)
+       Foreign Key: unnamed constraint on [production].[products] (Foreign Key)
+       Foreign Key: unnamed constraint on [production].[products] (Foreign Key)
+       Foreign Key: unnamed constraint on [production].[stocks] (Foreign Key)
+       Foreign Key: unnamed constraint on [production].[stocks] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[order_items] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[order_items] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[orders] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[orders] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[orders] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[staffs] (Foreign Key)
+       Foreign Key: unnamed constraint on [sales].[staffs] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,6 @@
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.dacpac
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.dll
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\bin\Debug\BikeStoresOLTP.pdb
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.sqlproj.AssemblyReference.cache
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.dll
+C:\Documents\Academia\UAGRM\Data Management and Business Intelligence V1\Demo\BikeStores\BikeStoresOLTP\obj\Debug\BikeStoresOLTP.pdb
