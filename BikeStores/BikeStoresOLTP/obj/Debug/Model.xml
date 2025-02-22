@@ -276,7 +276,7 @@
 			</Relationship>
 			<Annotation Type="SqlInlineConstraintAnnotation" Disambiguator="10" />
 		</Element>
-		<Element Type="SqlPrimaryKeyConstraint" Name="[production].[PK_brands]">
+		<Element Type="SqlPrimaryKeyConstraint" Name="[production].[PK_Brands]">
 			<Relationship Name="ColumnSpecifications">
 				<Entry>
 					<Element Type="SqlIndexedColumnSpecification">
